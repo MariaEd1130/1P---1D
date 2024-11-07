@@ -6,12 +6,30 @@ body{
 h3{
     text-align: center;
 }
+header{
+    background-color: blue;
+    color: black;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
 
 .primeiro-título{
 
-    color: rgb(14, 1, 71);
     text-align: left;
-    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: hwb(0 100% 0%);
     margin: 20px;
-    padding-left: 10px;
+    padding:  20px;
+}
+a:hover{
+    color: deeppink;
+    text-decoration: underline;
 }
