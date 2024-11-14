@@ -21,13 +21,16 @@ a{
     font-size: 24px;
 }
 
-.primeiro-título{
+h3{
 
     text-align: left;
     color: rgb(0, 0, 0);
     background-color: hwb(0 100% 0%);
     margin: 20px;
     padding:  20px;
+}
+section{
+    display: flex;
 }
 a:hover{
     color: deeppink;
